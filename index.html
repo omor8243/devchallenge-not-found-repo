@@ -44,6 +44,32 @@
     footer p{
       color: lightgray;
     }
+    /*responsive css*/
+    @media screen and (max-width: 576px) {
+      .container{
+        flex-direction: column;
+      }
+      .about-image img{
+        width: 80%;
+      }
+      .about-con{
+        width: 80%;
+        /* padding-left: 50px; */
+      }
+    }
+    @media screen and (min-width: 576px) and (max-width:992px) {
+      .container{
+        flex-direction: column;
+      }
+      .about-image img{
+        width: 60%;
+        margin-bottom: 50px;
+      }
+      .about-con{
+        width: 80%;
+        /* padding-left: 50px; */
+      }
+    }
   </style>
 </head>
 <body>
